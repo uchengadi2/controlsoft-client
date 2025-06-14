@@ -339,7 +339,7 @@ const useStyles = makeStyles((theme) => ({
       },
 }));
 
-export default function TopCoverAssessment() {
+export default function HeroSection() {
   const classes = useStyles();
   const [open, setOpen] = useState(false);
   const [openLoginForm, setOpenLoginForm] = useState(false);
@@ -433,295 +433,296 @@ export default function TopCoverAssessment() {
             </Box>
           </>
         ) : (
-          <Box className={classes.rootMobile} disableRipple>
-            <Grid
-              container
-              direction="row"
-              style={{ marginTop: 15, height: "50%" }}
-            >
-              <Grid
-                container
-                direction="column"
-                style={{ marginLeft: 10, width: "30%", marginTop: 0 }}
-              >
-                <CardActionArea></CardActionArea>
-                <Grid
-                  container
-                  //direction="row"
-                  alignItems="center"
-                  className={classes.backgroundDerica}
-                  justifyContent={matchesSM ? "center" : "space-between"}
-                  direction={matchesSM ? "column" : "row"}
-                  item
-                  style={{ height: "15%", marginTop: 0, marginLeft: 10 }}
-                ></Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  style={{ height: "55%", marginLeft: 10 }}
-                >
-                  <Typography style={{ fontSize: 11 }}>
-                    On this platform, you gain access to all markets across
-                    Nigeria and have the opportunity to connect directly with
-                    dealers offering your preferred products and services.
-                  </Typography>
-                </Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  // style={{ height: "60%", marginLeft: "3.5em" }}
-                  style={{ height: "20%", marginLeft: "0.5em" }}
-                >
-                  {/* <Button
-                    variant="contained"
-                    component={Link}
-                    to="/dealscentral"
-                    //onClick={() => <DealHome />}
-                    className={classes.actionButton}
-                  >
-                    Send Errand
-                  </Button> */}
-                </Grid>
-              </Grid>
-              <Grid
-                container
-                direction="column"
-                style={{ marginLeft: 0, width: "30%", marginTop: 0 }}
-              >
-                <Grid
-                  container
-                  //direction="row"
-                  alignItems="center"
-                  className={classes.backgroundPaint}
-                  justifyContent={matchesSM ? "center" : "space-between"}
-                  direction={matchesSM ? "column" : "row"}
-                  item
-                  style={{ height: "15%", marginTop: 0, marginLeft: 20 }}
-                ></Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  style={{ height: "55%", marginLeft: 25 }}
-                >
-                  <Typography style={{ fontSize: 11 }}>
-                    Once connected with the dealers, you can finalize transactions
-                    directly, coordinate product delivery with the dealers, or
-                    request our assistance in managing the logistics for delivery
-                    to your location.
-                  </Typography>
-                </Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  // style={{ height: "60%", marginLeft: "3.5em" }}
-                  style={{ height: "20%", marginLeft: "0.5em" }}
-                >
-                  <Button
-                    variant="contained"
-                    component={Link}
-                    to="/dealscentral"
-                    //onClick={() => <DealHome />}
-                    className={classes.actionButton}
-                  >
-                    Send Errand
-                  </Button>
-                </Grid>
-              </Grid>
+          // <Box className={classes.rootMobile} disableRipple>
+          //   <Grid
+          //     container
+          //     direction="row"
+          //     style={{ marginTop: 15, height: "50%" }}
+          //   >
+          //     <Grid
+          //       container
+          //       direction="column"
+          //       style={{ marginLeft: 10, width: "30%", marginTop: 0 }}
+          //     >
+          //       <CardActionArea></CardActionArea>
+          //       <Grid
+          //         container
+          //         //direction="row"
+          //         alignItems="center"
+          //         className={classes.backgroundDerica}
+          //         justifyContent={matchesSM ? "center" : "space-between"}
+          //         direction={matchesSM ? "column" : "row"}
+          //         item
+          //         style={{ height: "15%", marginTop: 0, marginLeft: 10 }}
+          //       ></Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         style={{ height: "55%", marginLeft: 10 }}
+          //       >
+          //         <Typography style={{ fontSize: 11 }}>
+          //           On this platform, you gain access to all markets across
+          //           Nigeria and have the opportunity to connect directly with
+          //           dealers offering your preferred products and services.
+          //         </Typography>
+          //       </Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         // style={{ height: "60%", marginLeft: "3.5em" }}
+          //         style={{ height: "20%", marginLeft: "0.5em" }}
+          //       >
+          //         <Button
+          //           variant="contained"
+          //           component={Link}
+          //           to="/dealscentral"
+          //           //onClick={() => <DealHome />}
+          //           className={classes.actionButton}
+          //         >
+          //           Send Errand
+          //         </Button>
+          //       </Grid>
+          //     </Grid>
+          //     <Grid
+          //       container
+          //       direction="column"
+          //       style={{ marginLeft: 0, width: "30%", marginTop: 0 }}
+          //     >
+          //       <Grid
+          //         container
+          //         //direction="row"
+          //         alignItems="center"
+          //         className={classes.backgroundPaint}
+          //         justifyContent={matchesSM ? "center" : "space-between"}
+          //         direction={matchesSM ? "column" : "row"}
+          //         item
+          //         style={{ height: "15%", marginTop: 0, marginLeft: 20 }}
+          //       ></Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         style={{ height: "55%", marginLeft: 25 }}
+          //       >
+          //         <Typography style={{ fontSize: 11 }}>
+          //           Once connected with the dealers, you can finalize transactions
+          //           directly, coordinate product delivery with the dealers, or
+          //           request our assistance in managing the logistics for delivery
+          //           to your location.
+          //         </Typography>
+          //       </Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         // style={{ height: "60%", marginLeft: "3.5em" }}
+          //         style={{ height: "20%", marginLeft: "0.5em" }}
+          //       >
+          //         <Button
+          //           variant="contained"
+          //           component={Link}
+          //           to="/dealscentral"
+          //           //onClick={() => <DealHome />}
+          //           className={classes.actionButton}
+          //         >
+          //           Send Errand
+          //         </Button>
+          //       </Grid>
+          //     </Grid>
   
-              <Grid
-                container
-                direction="column"
-                style={{ marginLeft: 0, width: "30%", marginTop: 0 }}
-              >
-                <Grid
-                  container
-                  //direction="row"
-                  alignItems="center"
-                  className={classes.backgroundBulk}
-                  justifyContent={matchesSM ? "center" : "space-between"}
-                  direction={matchesSM ? "column" : "row"}
-                  item
-                  style={{ height: "15%", marginTop: 0, marginLeft: 20 }}
-                ></Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  style={{ height: "55%", marginLeft: 25 }}
-                >
-                  <Typography style={{ fontSize: 11 }}>
-                    Payments for all purchases can be made directly to the dealer
-                    of the respective products or services. However, if there are
-                    concerns regarding trust or payment-related issues, you have
-                    the option to utilize our escrow service for added security.
-                  </Typography>
-                </Grid>
+          //     <Grid
+          //       container
+          //       direction="column"
+          //       style={{ marginLeft: 0, width: "30%", marginTop: 0 }}
+          //     >
+          //       <Grid
+          //         container
+          //         //direction="row"
+          //         alignItems="center"
+          //         className={classes.backgroundBulk}
+          //         justifyContent={matchesSM ? "center" : "space-between"}
+          //         direction={matchesSM ? "column" : "row"}
+          //         item
+          //         style={{ height: "15%", marginTop: 0, marginLeft: 20 }}
+          //       ></Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         style={{ height: "55%", marginLeft: 25 }}
+          //       >
+          //         <Typography style={{ fontSize: 11 }}>
+          //           Payments for all purchases can be made directly to the dealer
+          //           of the respective products or services. However, if there are
+          //           concerns regarding trust or payment-related issues, you have
+          //           the option to utilize our escrow service for added security.
+          //         </Typography>
+          //       </Grid>
   
-                <Grid
-                  item
-                  alignItems="center"
-                  // style={{ height: "60%", marginLeft: "3.5em" }}
-                  style={{ height: "20%", marginLeft: "0.5em" }}
-                >
-                  <Button
-                    variant="contained"
-                    component={Link}
-                    to="/dealscentral"
-                    //onClick={() => <DealHome />}
-                    className={classes.actionButton}
-                  >
-                    Request Escrow
-                  </Button>
-                </Grid>
-              </Grid>
-            </Grid>
-            <Grid
-              container
-              direction="row"
-              style={{ marginTop: 5, height: "50%" }}
-            >
-              <Grid
-                container
-                direction="column"
-                style={{ marginLeft: 10, width: "30%", marginTop: 0 }}
-              >
-                {/* <CardActionArea></CardActionArea> */}
-                <Grid
-                  container
-                  //direction="row"
-                  alignItems="center"
-                  className={classes.backgroundProduct}
-                  justifyContent={matchesSM ? "center" : "space-between"}
-                  direction={matchesSM ? "column" : "row"}
-                  item
-                  style={{ height: "15%", marginTop: 0, marginLeft: 10 }}
-                ></Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  style={{ height: "65%", marginLeft: 10 }}
-                >
-                  <Typography style={{ fontSize: 11 }}>
-                    As a dealer, manufacturer, business owner, or trader of any
-                    product or service, you have the opportunity to list your
-                    offerings on the platform, allowing potential customers to
-                    easily discover and contact you.
-                  </Typography>
-                </Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  // style={{ height: "60%", marginLeft: "3.5em" }}
-                  style={{ height: "10%", marginLeft: "0.3em", marginTop: 10 }}
-                >
-                  <Button
-                    variant="contained"
-                    component={Link}
-                    to="/dealscentral"
-                    //onClick={() => <DealHome />}
-                    className={classes.actionButton}
-                  >
-                    List Products
-                  </Button>
-                </Grid>
-              </Grid>
-              <Grid
-                container
-                direction="column"
-                style={{ marginLeft: 0, width: "30%", marginTop: 0 }}
-              >
-                <Grid
-                  container
-                  //direction="row"
-                  alignItems="center"
-                  className={classes.backgroundGrowth}
-                  justifyContent={matchesSM ? "center" : "space-between"}
-                  direction={matchesSM ? "column" : "row"}
-                  item
-                  style={{ height: "15%", marginTop: 0, marginLeft: 20 }}
-                ></Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  style={{ height: "65%", marginLeft: 25 }}
-                >
-                  <Typography style={{ fontSize: 11 }}>
-                    Presenting your products and services to a wide range of
-                    current and potential customers is essential for increasing
-                    visibility and driving sales. While the platform provides a
-                    default of ten(10) contact notifications per month for your
-                    listings, gaining additional exposure and customer
-                    interactions will require boosting your offerings to reach
-                    various customer segments.
-                  </Typography>
-                </Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  // style={{ height: "60%", marginLeft: "3.5em" }}
-                  style={{ height: "10%", marginLeft: "0.7em", marginTop: 10 }}
-                >
-                  <Button
-                    variant="contained"
-                    component={Link}
-                    to="/dealscentral"
-                    //onClick={() => <DealHome />}
-                    className={classes.actionButton}
-                  >
-                    Boost Visibility
-                  </Button>
-                </Grid>
-              </Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         // style={{ height: "60%", marginLeft: "3.5em" }}
+          //         style={{ height: "20%", marginLeft: "0.5em" }}
+          //       >
+          //         <Button
+          //           variant="contained"
+          //           component={Link}
+          //           to="/dealscentral"
+          //           //onClick={() => <DealHome />}
+          //           className={classes.actionButton}
+          //         >
+          //           Request Escrow
+          //         </Button>
+          //       </Grid>
+          //     </Grid>
+          //   </Grid>
+          //   <Grid
+          //     container
+          //     direction="row"
+          //     style={{ marginTop: 5, height: "50%" }}
+          //   >
+          //     <Grid
+          //       container
+          //       direction="column"
+          //       style={{ marginLeft: 10, width: "30%", marginTop: 0 }}
+          //     >
+                
+          //       <Grid
+          //         container
+          //         //direction="row"
+          //         alignItems="center"
+          //         className={classes.backgroundProduct}
+          //         justifyContent={matchesSM ? "center" : "space-between"}
+          //         direction={matchesSM ? "column" : "row"}
+          //         item
+          //         style={{ height: "15%", marginTop: 0, marginLeft: 10 }}
+          //       ></Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         style={{ height: "65%", marginLeft: 10 }}
+          //       >
+          //         <Typography style={{ fontSize: 11 }}>
+          //           As a dealer, manufacturer, business owner, or trader of any
+          //           product or service, you have the opportunity to list your
+          //           offerings on the platform, allowing potential customers to
+          //           easily discover and contact you.
+          //         </Typography>
+          //       </Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         // style={{ height: "60%", marginLeft: "3.5em" }}
+          //         style={{ height: "10%", marginLeft: "0.3em", marginTop: 10 }}
+          //       >
+          //         <Button
+          //           variant="contained"
+          //           component={Link}
+          //           to="/dealscentral"
+          //           //onClick={() => <DealHome />}
+          //           className={classes.actionButton}
+          //         >
+          //           List Products
+          //         </Button>
+          //       </Grid>
+          //     </Grid>
+          //     <Grid
+          //       container
+          //       direction="column"
+          //       style={{ marginLeft: 0, width: "30%", marginTop: 0 }}
+          //     >
+          //       <Grid
+          //         container
+          //         //direction="row"
+          //         alignItems="center"
+          //         className={classes.backgroundGrowth}
+          //         justifyContent={matchesSM ? "center" : "space-between"}
+          //         direction={matchesSM ? "column" : "row"}
+          //         item
+          //         style={{ height: "15%", marginTop: 0, marginLeft: 20 }}
+          //       ></Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         style={{ height: "65%", marginLeft: 25 }}
+          //       >
+          //         <Typography style={{ fontSize: 11 }}>
+          //           Presenting your products and services to a wide range of
+          //           current and potential customers is essential for increasing
+          //           visibility and driving sales. While the platform provides a
+          //           default of ten(10) contact notifications per month for your
+          //           listings, gaining additional exposure and customer
+          //           interactions will require boosting your offerings to reach
+          //           various customer segments.
+          //         </Typography>
+          //       </Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         // style={{ height: "60%", marginLeft: "3.5em" }}
+          //         style={{ height: "10%", marginLeft: "0.7em", marginTop: 10 }}
+          //       >
+          //         <Button
+          //           variant="contained"
+          //           component={Link}
+          //           to="/dealscentral"
+          //           //onClick={() => <DealHome />}
+          //           className={classes.actionButton}
+          //         >
+          //           Boost Visibility
+          //         </Button>
+          //       </Grid>
+          //     </Grid>
   
-              <Grid
-                container
-                direction="column"
-                style={{ marginLeft: 0, width: "30%", marginTop: 0 }}
-              >
-                <Grid
-                  container
-                  //direction="row"
-                  alignItems="center"
-                  className={classes.backgroundMetrics}
-                  justifyContent={matchesSM ? "center" : "space-between"}
-                  direction={matchesSM ? "column" : "row"}
-                  item
-                  style={{ height: "15%", marginTop: 0, marginLeft: "1.2em" }}
-                ></Grid>
-                <Grid
-                  item
-                  alignItems="center"
-                  style={{ height: "65%", marginLeft: 25 }}
-                >
-                  <Typography style={{ fontSize: 11 }}>
-                    We provide a comprehensive set of market metrics tailored to
-                    your offerings, enabling business owners to make informed
-                    decisions and develop strategies for optimizing sales. These
-                    metrics include but not limited to Customer
-                    Demographics,Market Trends,Sales Performance,Customer
-                    Engagement,Regional Market Demand, Product Performance
-                    Comparison etc
-                  </Typography>
-                </Grid>
+          //     <Grid
+          //       container
+          //       direction="column"
+          //       style={{ marginLeft: 0, width: "30%", marginTop: 0 }}
+          //     >
+          //       <Grid
+          //         container
+          //         //direction="row"
+          //         alignItems="center"
+          //         className={classes.backgroundMetrics}
+          //         justifyContent={matchesSM ? "center" : "space-between"}
+          //         direction={matchesSM ? "column" : "row"}
+          //         item
+          //         style={{ height: "15%", marginTop: 0, marginLeft: "1.2em" }}
+          //       ></Grid>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         style={{ height: "65%", marginLeft: 25 }}
+          //       >
+          //         <Typography style={{ fontSize: 11 }}>
+          //           We provide a comprehensive set of market metrics tailored to
+          //           your offerings, enabling business owners to make informed
+          //           decisions and develop strategies for optimizing sales. These
+          //           metrics include but not limited to Customer
+          //           Demographics,Market Trends,Sales Performance,Customer
+          //           Engagement,Regional Market Demand, Product Performance
+          //           Comparison etc
+          //         </Typography>
+          //       </Grid>
   
-                <Grid
-                  item
-                  alignItems="center"
-                  // style={{ height: "60%", marginLeft: "3.5em" }}
-                  style={{ height: "10%", marginLeft: "0.7em", marginTop: 10 }}
-                >
-                  <Button
-                    variant="contained"
-                    component={Link}
-                    to="/dealscentral"
-                    //onClick={() => <DealHome />}
-                    className={classes.actionButton}
-                  >
-                    Market Metrics
-                  </Button>
-                </Grid>
-              </Grid>
-            </Grid>
-          </Box>
+          //       <Grid
+          //         item
+          //         alignItems="center"
+          //         // style={{ height: "60%", marginLeft: "3.5em" }}
+          //         style={{ height: "10%", marginLeft: "0.7em", marginTop: 10 }}
+          //       >
+          //         <Button
+          //           variant="contained"
+          //           component={Link}
+          //           to="/dealscentral"
+          //           //onClick={() => <DealHome />}
+          //           className={classes.actionButton}
+          //         >
+          //           Market Metrics
+          //         </Button>
+          //       </Grid>
+          //     </Grid>
+          //   </Grid>
+          // </Box>
+          <></>
         )}
         <Dialog
           //style={{ zIndex: 1302 }}

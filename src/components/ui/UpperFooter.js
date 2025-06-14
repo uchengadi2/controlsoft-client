@@ -310,12 +310,12 @@ function UpperFooter(props) {
                         and experts through a combination of teaching, <br />
                         practice, mentoring and assessment <br />
                       </strong> */}
-                      <strong>
+                      {/* <strong>
                         At TopCreators, we believe that powerful storytelling is at the heart of every successful brand.
                         Our platform is designed to connect businesses with top-tier creators specializing in marketing videos and jingles 
                         that captivate audiences and leave a lasting impression
 
-                      </strong>
+                      </strong> */}
                     </Typography>
                   )}
                   {matchesMD ? (
@@ -327,6 +327,7 @@ function UpperFooter(props) {
                         className={classes.learnButton}
                         onClick={() => [setAboutUsOpen(true)]}
                         style={{ color: "white", borderColor: "white" }}
+                        disabled={true}
                       >
                         <span style={{ marginRight: 10 }}>Learn More </span>
                         <ButtonArrow height={10} width={10} fill="white" />

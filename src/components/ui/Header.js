@@ -692,8 +692,9 @@ const Header = (props) => {
             className={classes.buttonBrand}
             //onClick={() => [setOpenLoginForm(true), history.push("/")]}
             onClick={() => [setOpenSignUpForm(true)]}
+            disabled={true}
           >
-            Sign Up As A Brand
+            Sign Up As A Business
           </Button>
           <Button
             variant="contained"
@@ -703,8 +704,9 @@ const Header = (props) => {
             className={classes.buttonCreator}
             //onClick={() => [setOpenLoginForm(true), history.push("/")]}
             onClick={() => [setOpenCreatorSignUpForm(true)]}
+            disabled={true}
           >
-            Sign Up As A Creator
+            Sign Up As A Developer
           </Button>
         </Fragment>
       );
