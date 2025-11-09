@@ -85,20 +85,19 @@ function ContactUsForm(props) {
       >
         <Grid item container direction="row" alignItems="center">
           <Typography variant="h5" style={{ marginTop: 50 }}>
-            <span style={{ color: "orange" }}>Address:</span>{" "}
+            {/* <span style={{ color: "orange" }}>Address:</span>{" "}
             <span style={{ marginLeft: 10 }}>
               64 Okota Road, Isolo{" "}
               <span style={{ marginLeft: 100 }}> Lagos </span>{" "}
-              {/* <span style={{ marginLeft: 100 }}>
-                Estate, Ilasa, Lagos, Nigeria
-              </span> */}
-            </span>
+              
+            </span> */}
             <br /> <br />
           </Typography>
+           <br /> <br />
           <Typography variant="h5" style={{ marginTop: 10 }}>
             <span style={{ color: "orange" }}>Email:</span>{" "}
             <span style={{ marginLeft: 30 }}>
-              controlsoftng@gmail.com{" "}
+              info@controlsoft.com.ng{" "}
             </span>
             <br /> <br /> <span style={{ color: "orange" }}>Tel:</span>{" "}
             <span style={{ marginLeft: 50 }}>+234 803 201 5819</span>
