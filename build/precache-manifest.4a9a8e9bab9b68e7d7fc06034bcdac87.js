@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc8a171c801a7132ba5836c08211951c",
+    "revision": "89dd3dc26681f217d00f24c5df0c7803",
     "url": "/index.html"
   },
   {
-    "revision": "041c654cd148c23ed7e4",
+    "revision": "ed4fb5ce43b2491daa70",
     "url": "/static/css/main.8a8db68b.chunk.css"
   },
   {
-    "revision": "df7ba9cb1e567231f657",
-    "url": "/static/js/2.a29388fe.chunk.js"
+    "revision": "f1f9229136823efcd82b",
+    "url": "/static/js/2.b05fde50.chunk.js"
   },
   {
-    "revision": "041c654cd148c23ed7e4",
-    "url": "/static/js/main.e7b41d10.chunk.js"
+    "revision": "ed4fb5ce43b2491daa70",
+    "url": "/static/js/main.8c5be8da.chunk.js"
   },
   {
     "revision": "56256c405bfa76082cb3",
@@ -92,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/box_truck.ed8eced3.png"
   },
   {
+    "revision": "08636e58e083e14e2bed56141a7f79d5",
+    "url": "/static/media/business_solutions.08636e58.jpg"
+  },
+  {
     "revision": "0e696be7a31b6be299ad030708320df0",
     "url": "/static/media/channels.0e696be7.jpg"
   },
@@ -132,12 +136,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/digital-marketing1.52eecbc6.webp"
   },
   {
-    "revision": "73caaa01e4d700f4b23e47665ecc2727",
-    "url": "/static/media/facebook.73caaa01.svg"
+    "revision": "c95af783da234448e6b522bd80339aee",
+    "url": "/static/media/facebook.c95af783.svg"
   },
   {
     "revision": "9ceacef9678dd54bdf2bd143cca73b83",
     "url": "/static/media/food2.9ceacef9.png"
+  },
+  {
+    "revision": "0c2da6df51cd6b0e122743d5ff01e410",
+    "url": "/static/media/image12.0c2da6df.webp"
+  },
+  {
+    "revision": "286f28dfba8338a3900fb4b1e8a47d0f",
+    "url": "/static/media/image16.286f28df.webp"
+  },
+  {
+    "revision": "e2f82e2fe1c88a0ff74a14527f60a8b8",
+    "url": "/static/media/image17.e2f82e2f.jpg"
   },
   {
     "revision": "155cd73c0001d3013dc3a2793c938c5c",
@@ -164,16 +180,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/image29.7148294d.webp"
   },
   {
+    "revision": "a19684b7e25358e345dcbdd070fafde1",
+    "url": "/static/media/image7.a19684b7.jpg"
+  },
+  {
     "revision": "cb3f09b00fafa1ceea8dfb4f4bf44770",
     "url": "/static/media/infoBackground.cb3f09b0.svg"
   },
   {
-    "revision": "0b117993cfdc06f6a05973ffa37ab7dc",
-    "url": "/static/media/instagram.0b117993.svg"
+    "revision": "17ab0fb5b374bd1d6f481c52c89ea66b",
+    "url": "/static/media/innovation.17ab0fb5.jpg"
+  },
+  {
+    "revision": "8a1f257287cb0615e1a97abefedcaaac",
+    "url": "/static/media/instagram.8a1f2572.svg"
   },
   {
     "revision": "e15bca45e89e9d7b96bcae77451228ee",
     "url": "/static/media/instructors2.e15bca45.png"
+  },
+  {
+    "revision": "aa51dcf86388a2c87c75079cd1c788a3",
+    "url": "/static/media/it_supports.aa51dcf8.webp"
   },
   {
     "revision": "9d7dbabdee8a2bd06729a337949ffc47",
@@ -182,6 +210,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1f671708ae024f3f32ce25b7596ae936",
     "url": "/static/media/logo.1f671708.png"
+  },
+  {
+    "revision": "7148294d422f8e4dc3c485968fb7b3db",
+    "url": "/static/media/management.7148294d.webp"
   },
   {
     "revision": "d7131d778b438bb8e5c089bcc08401cf",
@@ -202,6 +234,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0da5e7e382522290bdea8396b5856114",
     "url": "/static/media/nuggets2.0da5e7e3.png"
+  },
+  {
+    "revision": "c54937d1080b06bfbf1e34c6b061ece6",
+    "url": "/static/media/paka.c54937d1.jpg"
   },
   {
     "revision": "a29c21b98edc8ff70b2f37af91454562",
@@ -228,8 +264,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/repeatingBackground.c608f23f.svg"
   },
   {
-    "revision": "435fc4bc44c1e90d5f00f4efccdb9b1d",
-    "url": "/static/media/twitter.435fc4bc.svg"
+    "revision": "927369cc651cb703410214319285e843",
+    "url": "/static/media/taju.927369cc.jpg"
+  },
+  {
+    "revision": "f83dd2b4d18859e7359368e9969908b7",
+    "url": "/static/media/texhnology.f83dd2b4.webp"
+  },
+  {
+    "revision": "b573f1fa2820a98ec1fa1e1b1128782f",
+    "url": "/static/media/training.b573f1fa.jpg"
+  },
+  {
+    "revision": "13b0990004faa8299dd60e83b2b12569",
+    "url": "/static/media/twitter.13b09900.svg"
+  },
+  {
+    "revision": "c0ba254fbedc52809f285ca0d97b5cfe",
+    "url": "/static/media/uche.c0ba254f.jpg"
   },
   {
     "revision": "6b90d7dca8c7d0d5340cc0748c6bdb3c",

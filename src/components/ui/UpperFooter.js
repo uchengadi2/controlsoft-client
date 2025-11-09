@@ -379,7 +379,7 @@ function UpperFooter(props) {
                       <span> 64 Okota Road, Isolo, Lagos</span>
                       <br />
 
-                      <span>controlsoftng@gmail.com</span>
+                      <span>info@controlsoft.com.ng</span>
                       <br />
 
                       <span>+234 803 201 5819, +234 701 854 1894</span>

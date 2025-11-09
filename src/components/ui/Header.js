@@ -248,6 +248,7 @@ const useStyles = makeStyles((theme) => ({
   drawerIcon: {
     height: "50px",
     width: "50px",
+    color: "white",
   },
   drawerIconContainer: {
     //marginLeft: "auto",

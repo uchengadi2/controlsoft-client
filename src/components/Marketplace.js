@@ -28,6 +28,21 @@ import UpperFooter from "./ui/UpperFooter";
 import TopCover from "./homePageCards/TopCover";
 import HeroSection from "./homePageCards/HeroSection";
 import NoCodeAndAutomationAdBar from "./homePageCards/NoCodeAndAutomationAdBar";
+import TechnologySection from "./homePageCards/Sections/TechnologySection"
+import TechnologyConsultingHeroSection from "./homePageCards/Sections/TechnologyConsultingHeroSection";
+import BusinessConsultingHeroSection from "./homePageCards/Sections/BusinessConsultingHeroSection";
+import BusinessSection from "./homePageCards/Sections/BusinessSection";
+import ITServiceConsultingHeroSection from "./homePageCards/Sections/ITServiceConsultingHeroSection";
+import ITServicesSection from "./homePageCards/Sections/ITServicesSection";
+import InnovationConsultingSection from "./homePageCards/Sections/InnovationConsultingSection";
+import OurClients from "./homePageCards/OurClients";
+import BusinessSolutionsSection from "./homePageCards/Sections/BusinessSolutionsSection";
+import ExecutiveTeam from "./homePageCards/ExecutiveTeam";
+import OurPartners from "./homePageCards/OurPartners";
+import IndustrySpecificSolutionsHeroSection from "./homePageCards/Sections/IndustrySpecificSolutionsHeroSection";
+import TopCoverAssessment from "./homePageCards/TopCoverAssessment";
+import TopCoverIntroductionSection from "./homePageCards/TopCoverIntroductionSection";
+import TrainingServicesHeroSection from "./homePageCards/Sections/TrainingServicesHeroSection";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -3198,10 +3213,10 @@ const Marketplace = (props) => {
                         }}
                       >
                         {" "}
-                      We engineer world-class software, deliver bulletproof quality assurance, <br />
+                      We empower organizations to transform, scale, and stay  <br />
                       </span>{" "}
                       <span style={{ marginLeft: matchesSM ? 20 : 60 }}>
-                      amplify your digital presence, and secure  your digital future.
+                      ahead of the competition through intelligent technology 
                       </span>
                     
                       {/* <span style={{ marginLeft: matchesSM ? 20 : 80 }}>
@@ -3209,11 +3224,11 @@ const Marketplace = (props) => {
                       </span> */}
                       <br />
                       <span style={{ marginLeft: matchesSM ? 20 : 110 }}>
-                      We turn bold ideas into powerful, durable, secure,
+                      solutions  and forward-thinking  management 
                       </span>
                       <br />
                       <span style={{ marginLeft: matchesSM ? 20 : 140 }}>
-                      and scalable solutions
+                      strategies.
                       </span>
                       <br />
                      
@@ -3233,27 +3248,27 @@ const Marketplace = (props) => {
                         }}
                       >
                         {" "}
-                      We engineer world-class software, deliver  <br />
+                      We empower organizations to transform,    <br />
                       </span>{" "}
                       <span style={{ marginLeft: matchesSM ? 20 : 60 }}>
-                      bulletproof quality assurance,
+                      scale, and stay ahead of the competition 
                       </span>
                       <br />
                       <span style={{ marginLeft: matchesSM ? 30 : 60 }}>
-                      amplify your digital presence, and secure 
+                      through intelligent technology solutions  
                       </span>
                       <br />
                       <span style={{ marginLeft: matchesSM ? 40 : 60 }}>
-                      your digital future.
+                      and forward-thinking management
                       </span>
                       <br />
                       <span style={{ marginLeft: matchesSM ? 50 : 110 }}>
-                      We turn bold ideas into powerful, durable, 
+                       strategies. 
                       </span>
                       <br />
-                      <span style={{ marginLeft: matchesSM ? 60 : 140 }}>
+                      {/* <span style={{ marginLeft: matchesSM ? 60 : 140 }}>
                       secure, and scalable solutions
-                      </span>
+                      </span> */}
                       <br />
                     </Typography>
                   )}
@@ -3289,10 +3304,28 @@ const Marketplace = (props) => {
           </Grid>
         </Grid>
         {/** Adding the Heero Text container here  */}
-        <HeroSection />
+        {/* <HeroSection /> */}
+        <TopCoverIntroductionSection />
+        <TechnologyConsultingHeroSection />
         {/* </section> */}
-        <TopCover />
-        <NoCodeAndAutomationAdBar />
+        {/* <TechnologySection /> */}
+        
+       <BusinessConsultingHeroSection />
+       {/* <BusinessSection /> */}
+       <ITServiceConsultingHeroSection />
+       {/* <ITServicesSection /> */}
+      
+        <InnovationConsultingSection />
+       <BusinessSolutionsSection />
+       {/* <IndustrySpecificSolutionsHeroSection /> */}
+      
+        <TrainingServicesHeroSection />
+    
+       {/* <ExecutiveTeam /> */}
+       <OurClients />
+      
+       <OurPartners />
+       
         {/* <TopCoverServices />
         <TopCoverNew /> */}
         {/* <TopCover /> */}
