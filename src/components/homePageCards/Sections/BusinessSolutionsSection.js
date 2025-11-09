@@ -534,7 +534,7 @@ export default function BusinessSolutionsSection() {
                     //style={{ height: "60%", marginLeft: "3.5em" }}
                     style={{ height: "85%", marginLeft: "2%", width:"65%", padding:5, marginRight:"10%"  }}
                   >
-                   <Typography variant="h5" style={{marginLeft:'0%',marginBottom:30, fontWeight:700}}>Management Consulting</Typography>
+                   <Typography variant="h5" style={{marginLeft:'0%',marginBottom:30, fontWeight:700}}>Business Solutions Consulting</Typography>
                     {/* <Typography style={{marginTop:0, padding: 0,fontSize:12}}>
                           <strong><ReactMarkdown>Chauffeur-Driven Exotic Car Rentals in Cities Across Nigeria</ReactMarkdown></strong>
                     </Typography> */}

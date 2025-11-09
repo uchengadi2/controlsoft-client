@@ -534,7 +534,7 @@ export default function TechnologyConsultingHeroSection() {
                     //style={{ height: "60%", marginLeft: "3.5em" }}
                     style={{ height: "85%", marginLeft: "2%", width:"65%", padding:5, marginRight:"10%"  }}
                   >
-                   <Typography variant="h5" style={{marginLeft:'0%',marginBottom:30, fontWeight:700}}>Management Consulting</Typography>
+                   <Typography variant="h5" style={{marginLeft:'0%',marginBottom:30, fontWeight:700}}>Technology Consulting</Typography>
                     {/* <Typography style={{marginTop:0, padding: 0,fontSize:12}}>
                           <strong><ReactMarkdown>We help businesses harness the power of cutting-edge technology to improve efficiency, drive innovation, and accelerate growth. Our approach goes beyond implementation — we align technology with your business strategy to create solutions that deliver real, measurable results. </ReactMarkdown></strong>
                     </Typography> */}
